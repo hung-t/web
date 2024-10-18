@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
+    <style>
+        * {
+            /* outline: 1px solid green; */
+        }
+    </style>
+</head>
+
+<body class="overflow-scroll">
+    <header>
+        <nav class="navbar navbar-light navbar-expand text-nowrap me-auto ms-auto ps-2 pe-2" style="width: 1200px;">
+            <a class="navbar-brand col-2" href="#">BrandName</a>
+            <div class="navbar-nav col-8">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item ms-2">
+                        <a class="nav-link text-dark" href="#">Home</a>
+                    </li>
+                    <li class="nav-item ms-2">
+                        <a class="nav-link text-dark" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item ms-2">
+                        <a class="nav-link text-dark" href="#">Our Story</a>
+                    </li>
+                    <li class="nav-item ms-2">
+                        <a class="nav-link text-dark" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item ms-2">
+                        <a class="nav-link text-dark" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="">
+                <a>
+                    <img width="30px" src="images/black_search.png">
+                </a>
+                <a>
+                    <img width="30px" src="images/black_favorite.png">
+                </a>
+                <a>
+                    <img width="30px" src="images/black_shopping_bag.png">
+                </a>
+                <button class="btn btn-dark text-white ps-3 pe-3">Login</button>
+            </div>
+
+        </nav>
+    </header>
+    <main class="m-auto" style="width: 1200px;">
+        <section class="d-flex">
+            <!-- <label id="directive"></label> -->
+            <div class="p-2" style="height: 400px; width: 500px;">
+                <div style="background-color: aqua; width: 100%; height: 100%;"></div>
+                <!-- <img src=""> -->
+            </div>
+            <div class="p-2" style="height: 400px; width: 700px;">
+                <article class="d-flex flex-column justify-content-between" style="height: 100%; width: 100%;">
+                    <h2>Title</h2>
+                    <h5>Subtitle</h5>
+                    <div class="d-flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-star me-1 my-auto" viewBox="0 0 16 16">
+                            <path
+                                d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-star me-1 my-auto" viewBox="0 0 16 16">
+                            <path
+                                d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-star me-1 my-auto" viewBox="0 0 16 16">
+                            <path
+                                d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-star me-1 my-auto" viewBox="0 0 16 16">
+                            <path
+                                d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-star my-auto" viewBox="0 0 16 16">
+                            <path
+                                d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z" />
+                        </svg>
+                        <label class="text-muted ms-2">0.0 (0 Reviews)</label>
+                    </div>
+                    <h5 class="text-danger">3.000.000 VND</h5>
+                    <label class="overflow-auto" style="text-align: justify;">Description - Description - Description -
+                        Description - Description - Description - Description - Description - Description - Description
+                    </label>
+                    <h5>Color</h5>
+                    <div class=" d-flex">
+                        <button class="me-2"
+                            style="background-color: red; width: 30px; height: 30px; border: none; border-radius: 5px;"></button>
+                        <button class="me-2"
+                            style="background-color: blue; width: 30px; height: 30px; border: none; border-radius: 5px;"></button>
+                        <button class="me-2"
+                            style="background-color: orange; width: 30px; height: 30px; border: none; border-radius: 5px;"></button>
+                        <button class="me-2"
+                            style="background-color: black; width: 30px; height: 30px; border: none; border-radius: 5px;"></button>
+                        <button class="me-2"
+                            style="background-color: lime; width: 30px; height: 30px; border: none; border-radius: 5px;"></button>
+                    </div>
+                    <h5>Option</h5>
+                    <div class="d-flex">
+                        <a href="#" class="me-2 btn border-primary text-primary ps-3 pe-3 text-nowrap fw-bold"
+                            style="background-color:  rgb(241, 248, 254);">Option 1 - Active</a>
+                        <a href="#" class="me-2 btn border-dark btn-white text-dark ps-3 pe-3 text-nowrap">Option 2</a>
+                        <a href="#" class="me-2 btn border-dark btn-white text-dark ps-3 pe-3 text-nowrap">Option 3</a>
+                    </div>
+                    <div class="d-flex mt-2">
+                        <button class="me-3 btn btn-dark text-white ps-5 pe-5 text-nowrap">Thêm vào
+                            giỏ</button>
+                        <button class="btn border-dark text-nowrap"><img src="images/black_favorite.png" width="20">
+                        </button>
+                    </div>
+                </article>
+        </section>
+        <section class="p-2" style="width: 500px;">
+            <li class="d-flex justify-content-between" style="list-style-type: none;">
+                <div style="width: 110px; height: 90px; background-color: blue;"></div>
+                <div style="width: 110px; height: 90px; background-color: blue;"></div>
+                <div style="width: 110px; height: 90px; background-color: blue;"></div>
+                <div style="width: 110px; height: 90px; background-color: blue;"></div>
+            </li>
+        </section>
+        <section class="p-2" style="width: 1200px;">
+            <nav class="d-flex nav" role="tablist" style="border-bottom: 3px solid gainsboro;">
+                <style>
+                    #tab1,
+                    #tab2,
+                    #tab3 {
+                        margin: -3px;
+                    }
+                </style>
+                <div class="active me-4" id="tab1" data-bs-toggle="tab" data-bs-target="#tab_1" type="button"
+                    aria-controls="tab-1" aria-selected="true" style="border-bottom: 3px solid black;">
+                    <h5 style="font-weight: inherit;">
+                        Overview
+                    </h5>
+                </div>
+                <div class="me-4 h5" id="tab2" data-bs-toggle="tab" data-bs-target="#tab_2" type="button"
+                    aria-controls="tab-2" aria-selected="false">
+                    <h5 style="font-weight: inherit;">
+                        Device specifications
+                    </h5>
+                </div>
+                <div class="h5" id="tab3" data-bs-toggle="tab" data-bs-target="#tab_3" type="button"
+                    aria-controls="tab-3">
+                    <h5 style="font-weight: inherit;">
+                        Reviews
+                    </h5>
+                </div>
+            </nav>
+            <div class="d-flex mt-3 justify-content-between">
+                <section class="col-8">
+                    <article class="tab-content" style="text-align: justify;">
+                        <div class="tab-pane fade show active" id="tab_1" role="tabpanel" aria-labelledby="tab1">
+                            Overview</div>
+                        <div class="tab-pane fade" id="tab_2" role="tabpanel" aria-labelledby="tab2">
+                            <div class="list-group">
+                                <div class="d-flex">
+                                    <label class="fw-bold col-4">Display</label>
+                                    <label class="col-8">Description - Description - Description - Description -
+                                        Description - Description - Description - Description - Description -
+                                        Description - Description - Description - Description - </label>
+                                </div>
+                                <hr class="mt-1 mb-1">
+                                <div class="d-flex">
+                                    <label class="fw-bold col-4">Dimesions and weight</label>
+                                    <label class="col-8">Description - Description - Description - Description -
+                                        Description - Description - Description - Description - Description -
+                                        Description - Description - Description - Description - </label>
+                                </div>
+                                <hr class="mt-1 mb-1">
+                                <div class="d-flex">
+                                    <label class="fw-bold col-4">Battery and charging</label>
+                                    <label class="col-8">Description - Description - Description - Description -
+                                        Description - Description - Description - Description - Description -
+                                        Description - Description - Description - Description - </label>
+                                </div>
+                                <hr class="mt-1 mb-1">
+                                <div class="d-flex">
+                                    <label class="fw-bold col-4">Memory and storage</label>
+                                    <label class="col-8">Description - Description - Description - Description -
+                                        Description - Description - Description - Description - Description -
+                                        Description - Description - Description - Description - </label>
+                                </div>
+                                <hr class="mt-1 mb-1">
+                                <div class="d-flex">
+                                    <label class="fw-bold col-4">CPU</label>
+                                    <label class="col-8">Description - Description - Description - Description -
+                                    </label>
+                                </div>
+                                <hr class="mt-1 mb-1">
+                                <div class="d-flex">
+                                    <label class="fw-bold col-4">Rear camera</label>
+                                    <label class="col-8">Description - Description - Description - Description -
+                                        Description - Description - Description - Description - Description -
+                                        Description - Description - Description - Description - </label>
+                                </div>
+                                <hr class="mt-1 mb-1">
+                                <div class="d-flex">
+                                    <label class="fw-bold col-4">Front camera</label>
+                                    <label class="col-8">Description - Description - Description - Description -
+                                        Description - Description - Description - Description - Description -
+                                        Description - Description - Description - Description - </label>
+                                </div>
+                                <hr class="mt-1 mb-1">
+                                <div class="d-flex">
+                                    <label class="fw-bold col-4">Sims, buttons and ports</label>
+                                    <label class="col-8">Description - Description - Description - Description -
+                                        Description - Description - Description - Description - Description -
+                                        Description - Description - Description - Description - </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" tab-pane fade" id="tab_3" role="tabpanel" aria-labelledby="tab3">
+                            <label>fdafaf</label>
+                    </article>
+                </section>
+                <section class="col-3">
+                    dfafasdf
+                </section>
+            </div>
+            <script>
+                const tab1 = document.getElementById("tab1");
+                const tab2 = document.getElementById("tab2");
+                const tab3 = document.getElementById("tab3");
+                tab1.addEventListener('show.bs.tab', function () {
+                    tab1.style.borderBottom = "3px solid black";
+                    tab1.style.fontWeight = "bold";
+                });
+                tab1.addEventListener('hide.bs.tab', function () {
+                    tab1.style.borderBottom = "none";
+                    tab1.style.fontWeight = "normal";
+                });
+                tab2.addEventListener('show.bs.tab', function () {
+                    tab2.style.borderBottom = "3px solid black";
+                    tab2.style.fontWeight = "bold";
+                });
+                tab2.addEventListener('hide.bs.tab', function () {
+                    tab2.style.borderBottom = "none";
+                    tab2.style.fontWeight = "normal";
+                });
+                tab3.addEventListener('show.bs.tab', function () {
+                    tab3.style.borderBottom = "3px solid black";
+                    tab3.style.fontWeight = "bold";
+                });
+                tab3.addEventListener('hide.bs.tab', function () {
+                    tab3.style.borderBottom = "none";
+                    tab3.style.fontWeight = "normal";
+                });
+            </script>
+        </section>
+    </main>
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
